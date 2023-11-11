@@ -1,0 +1,28 @@
+{
+  "name": "msw-bug",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Usaid",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "graphql": "^16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
+    "msw": "^2.0.5",
+    "vite": "^4.4.5"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
